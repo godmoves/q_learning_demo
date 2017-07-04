@@ -5,8 +5,8 @@ master = Tk()
 triangle_size = 0.1
 cell_score_min = -0.2
 cell_score_max = 0.2
-Width = 100
-(x, y) = (5, 5)
+Width = 80
+(x, y) = (7, 7)
 actions = ["up", "down", "left", "right"]
 
 board = Canvas(master, width=x*Width, height=y*Width)
@@ -15,8 +15,8 @@ score = 1
 restart = False
 walk_reward = -0.04
 
-walls = [(1, 1), (1, 2), (2, 1), (2, 2)]
-specials = [(4, 1, "red", -1), (4, 0, "green", 1)]
+walls = [(1, 1), (1, 2), (2, 1), (2, 2), (3, 4), (4, 3), (4, 4)]
+specials = [(1, 4, "red", -1), (3, 0, "red", -1), (5, 5, "red", -1), (5, 2, "green", 1)]
 cell_scores = {}
 
 
