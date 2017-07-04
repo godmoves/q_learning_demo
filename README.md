@@ -13,11 +13,11 @@ called [Q learning](https://en.wikipedia.org/wiki/Q-learning).
 
 ## Dependencies
 
--Python 2.7
--tkinter
+	-Python 2.7
+	-tkinter
 
 If on Ubuntu you can install tkinter for python2.7 with
-$sudo apt-get install python-tk
+`$sudo apt-get install python-tk`
 
 ## Usage
 
